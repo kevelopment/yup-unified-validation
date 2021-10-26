@@ -31,14 +31,22 @@
   "dependencies": {
     "@nestjs/common": "^8.1.1",
     "@nestjs/core": "^8.1.1",
+    "@nestjs/graphql": "^9.1.1",
+    "@nestjs/mapped-types": "^1.0.0",
     "@nestjs/platform-express": "^8.1.1",
+    "apollo-server-express": "^3.4.0",
     "core-js": "^3.6.5",
+    "formik": "^2.2.9",
+    "graphql": "^15.6.1",
+    "nestjs-yup": "^1.0.13",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "reflect-metadata": "^0.1.13",
     "regenerator-runtime": "0.13.7",
     "rxjs": "~7.4.0",
-    "tslib": "^2.0.0"
+    "tslib": "^2.0.0",
+    "typeorm": "^0.2.38",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
     "@nestjs/schematics": "^8.0.4",
